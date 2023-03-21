@@ -108,10 +108,15 @@ p {
 .carousel {
   margin: 2rem auto;
   padding: 2rem 0;
-  max-width: 800px;
+  max-width: 300px;
   text-align: center;
   background-color: var(--carousel-bg-color);
   overflow-x: hidden;
+}
+@media screen and (min-width: 1024px) {
+  .carousel {
+    max-width: 800px;
+  }
 }
 
 .carousel input {
